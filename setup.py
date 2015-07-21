@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name='custom_django',
     version='0.1',
-    packages=['django_custom'],
+    packages=['django'],
     include_package_data=True,
     install_requires=   [],
     license='BSD License',  # example license
